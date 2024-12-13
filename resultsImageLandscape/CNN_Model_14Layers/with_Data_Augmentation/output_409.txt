@@ -1,0 +1,17 @@
+Test Loss is 0.4299357533454895
+Test Accuracy is 0.8450000286102295
+
+
+              precision    recall  f1-score   support
+
+   buildings       0.82      0.87      0.85       437
+      forest       0.98      0.93      0.96       474
+     glacier       0.84      0.74      0.79       553
+    mountain       0.76      0.83      0.79       525
+         sea       0.84      0.89      0.86       510
+      street       0.85      0.83      0.84       501
+
+    accuracy                           0.84      3000
+   macro avg       0.85      0.85      0.85      3000
+weighted avg       0.85      0.84      0.85      3000
+
