@@ -1,0 +1,41 @@
+Model Evaluation Results
+=======================
+
+Random Forest Results:
+              precision    recall  f1-score   support
+
+   buildings       0.53      0.41      0.46       437
+      forest       0.69      0.80      0.74       474
+     glacier       0.57      0.61      0.59       553
+    mountain       0.59      0.68      0.63       525
+         sea       0.60      0.46      0.52       510
+      street       0.64      0.67      0.65       501
+
+    accuracy                           0.61      3000
+   macro avg       0.60      0.60      0.60      3000
+weighted avg       0.60      0.61      0.60      3000
+MCC: 0.5292
+Accuracy: 0.6073
+Precision: 0.6024
+Recall: 0.6047
+F1 Score: 0.5992
+========================================
+
+KNN Results:
+              precision    recall  f1-score   support
+
+   buildings       0.67      0.03      0.05       437
+      forest       0.65      0.56      0.60       474
+     glacier       0.46      0.43      0.44       553
+    mountain       0.35      0.81      0.49       525
+         sea       0.29      0.42      0.34       510
+      street       0.75      0.15      0.25       501
+
+    accuracy                           0.41      3000
+   macro avg       0.53      0.40      0.36      3000
+weighted avg       0.52      0.41      0.37      3000
+MCC: 0.3039
+Accuracy: 0.4087
+Precision: 0.5265
+Recall: 0.3984
+F1 Score: 0.3621

@@ -1,2 +1,0 @@
-Test Loss is 0.5410154461860657
-Test Accuracy is 0.8183333277702332
