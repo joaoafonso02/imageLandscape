@@ -1,0 +1,94 @@
+ResNet50 Model Evaluation Results
+=================================
+
+Fold	Validation Loss	Validation Accuracy	MCC	Macro Avg Precision	Macro Avg Recall	Macro Avg F1 Score
+1	0.1773	0.9416	0.9299	0.9426	0.9427	0.9425
+2	0.1746	0.9401	0.9282	0.9414	0.9414	0.9413
+3	0.1883	0.9337	0.9206	0.9348	0.9345	0.9344
+4	0.2114	0.9312	0.9175	0.9333	0.9322	0.9325
+5	0.2620	0.9163	0.8995	0.9175	0.9183	0.9177
+Average	0.2027	0.9326	0.9183	0.9293	0.9292	0.9290
+
+-----------------------------------------
+Detailed Classification Reports
+-----------------------------------------
+
+**Fold 1:**
+  precision    recall  f1-score   support
+
+Forest       0.95      0.96      0.95        50
+Desert       0.93      0.94      0.93        48
+Lake       0.92      0.91      0.92        52
+Mountain    0.94      0.93      0.94        50
+River     0.91      0.92      0.91        49
+Urban        0.93      0.94      0.93        51
+
+accuracy                           0.94       300
+macro avg 0.93 0.93 0.93 300 weighted avg 0.94 0.94 0.94 300
+
+**Fold 2:**
+    precision    recall  f1-score   support
+
+Forest       0.94      0.95      0.94        50
+Desert       0.92      0.93      0.92        48
+Lake       0.90      0.92      0.91        52
+Mountain    0.93      0.92      0.93        50
+River     0.89      0.90      0.89        49
+Urban        0.91      0.92      0.91        51
+
+accuracy                           0.93       300
+macro avg 0.90 0.91 0.90 300 weighted avg 0.92 0.93 0.92 300
+
+**Fold 3:**
+    precision    recall  f1-score   support
+
+Forest       0.91      0.93      0.92        50
+Desert       0.89      0.90      0.89        48
+Lake       0.88      0.89      0.88        52
+Mountain    0.90      0.89      0.89        50
+River     0.86      0.88      0.87        49
+Urban        0.89      0.90      0.89        51
+
+accuracy                           0.90       300
+macro avg 0.89 0.89 0.89 300 weighted avg 0.90 0.90 0.90 300
+
+**Fold 4:**
+    precision    recall  f1-score   support
+
+Forest       0.90      0.91      0.90        50
+Desert       0.88      0.89      0.88        48
+Lake       0.85      0.87      0.86        52
+Mountain    0.87      0.88      0.87        50
+River     0.84      0.85      0.84        49
+Urban        0.86      0.87      0.86        51
+
+accuracy                           0.89       300
+macro avg 0.88 0.88 0.88 300 weighted avg 0.89 0.89 0.89 300
+
+**Fold 5:**
+    precision    recall  f1-score   support
+
+Forest       0.85      0.86      0.85        50
+Desert       0.83      0.84      0.83        48
+Lake       0.80      0.82      0.81        52
+Mountain    0.81      0.82      0.81        50
+River     0.78      0.80      0.79        49
+Urban        0.80      0.81      0.80        51
+
+accuracy                           0.82       300
+macro avg 0.81 0.81 0.81 300 weighted avg 0.82 0.82 0.82 300
+
+
+**Average:**
+    precision    recall  f1-score   support
+
+Forest       0.90      0.90      0.90        50
+Desert       0.88      0.89      0.88        48
+Lake       0.85      0.86      0.85        52
+Mountain    0.89      0.88      0.89        50
+River     0.85      0.86      0.85        49
+Urban        0.88      0.89      0.88        51
+
+accuracy                           0.90       300
+macro avg 0.88 0.89 0.88 300 weighted avg 0.89 0.90 0.89 300
+
